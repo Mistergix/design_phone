@@ -1,0 +1,14 @@
+{
+  "name": "phone",
+  "version": "0.0.1",
+  "description": "A phone protoype for old people",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "author": "Nicolas Ruche",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
