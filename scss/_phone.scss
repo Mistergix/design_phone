@@ -1,5 +1,23 @@
 .phone
 {
-    height: 80vh;
-    width: 100%;
+    background: black;
+    border: 5px solid gray;
+    border-radius: 15px;
+
+    .phone-top
+    {
+        height: 100px;
+    }
+
+    .screen
+    {
+        height: 600px;
+        background: white;
+        border-radius: 15px;
+    }
+
+    .phone-buttons
+    {
+        height: 100px;
+    }
 }
