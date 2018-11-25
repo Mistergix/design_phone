@@ -8,9 +8,7 @@
     height: 72vh;
     background: white;
     border-radius: 15px;
-    overflow: scroll; }
-    .phone .screen p {
-      height: 2000%; }
+    overflow: auto; }
   .phone .phone-button {
     height: 12vh; }
     .phone .phone-button .home-button {
