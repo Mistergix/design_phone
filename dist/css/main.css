@@ -3,14 +3,29 @@
   border: 5px solid gray;
   border-radius: 15px; }
   .phone .phone-top {
-    height: 100px; }
+    height: 12vh; }
   .phone .screen {
-    height: 600px;
+    height: 72vh;
     background: white;
     border-radius: 15px; }
-  .phone .phone-buttons {
-    height: 100px; }
+  .phone .phone-button {
+    height: 12vh; }
+    .phone .phone-button .home-button {
+      width: 80%;
+      height: 50%;
+      background: black;
+      border-radius: 10px;
+      border: 1px solid white;
+      border-bottom: 5px solid white; }
+      .phone .phone-button .home-button:active {
+        border-bottom-width: 1px; }
 
 html, body {
   width: 100%;
   height: 100%; }
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
