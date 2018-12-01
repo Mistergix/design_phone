@@ -3,12 +3,15 @@
   "version": "0.0.1",
   "description": "A phone protoype for old people",
   "main": "index.js",
+  "homepage": "https://mistergix.github.io/design_phone",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive"
+    "sass": "node-sass -w scss/ -o dist/css --recursive",
+    "deploy" : "gh-pages -d dist"
   },
   "author": "Nicolas Ruche",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.10.0"
   }
 }
