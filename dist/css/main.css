@@ -11,8 +11,6 @@
     overflow: auto; }
     .phone .screen #screenCarousel {
       height: 100%; }
-      .phone .screen #screenCarousel .blackiconcolor {
-        color: black; }
   .phone .phone-button {
     height: 12vh; }
     .phone .phone-button .home-button {
@@ -24,6 +22,9 @@
       border-bottom: 5px solid white; }
       .phone .phone-button .home-button:active {
         border-bottom-width: 1px; }
+
+.blackiconcolor {
+  color: black; }
 
 html, body {
   width: 100%;
