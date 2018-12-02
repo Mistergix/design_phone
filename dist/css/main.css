@@ -1,11 +1,12 @@
 .phone {
   background: black;
   border: 5px solid gray;
-  border-radius: 15px; }
+  border-radius: 15px;
+  margin-top: 5vh; }
   .phone .phone-top {
     height: 12vh; }
   .phone .screen {
-    height: 72vh;
+    height: 65vh;
     background: white;
     border-radius: 15px;
     overflow: auto; }
@@ -25,6 +26,9 @@
 
 .blackiconcolor {
   color: black; }
+
+.explain-text {
+  height: 100%; }
 
 html, body {
   width: 100%;
