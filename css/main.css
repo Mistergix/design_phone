@@ -1,18 +1,18 @@
 .phone {
   background: black;
   border: 5px solid gray;
-  border-radius: 15px; }
+  border-radius: 15px;
+  margin-top: 5vh; }
   .phone .phone-top {
     height: 12vh; }
   .phone .screen {
-    height: 72vh;
+    height: 65vh;
+    min-height: 300px;
     background: white;
     border-radius: 15px;
     overflow: auto; }
     .phone .screen #screenCarousel {
       height: 100%; }
-      .phone .screen #screenCarousel .blackiconcolor {
-        color: black; }
   .phone .phone-button {
     height: 12vh; }
     .phone .phone-button .home-button {
@@ -24,6 +24,12 @@
       border-bottom: 5px solid white; }
       .phone .phone-button .home-button:active {
         border-bottom-width: 1px; }
+
+.blackiconcolor {
+  color: black; }
+
+.explain-text {
+  height: 100%; }
 
 html, body {
   width: 100%;
