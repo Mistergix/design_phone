@@ -2,17 +2,35 @@
   background: black;
   border: 5px solid gray;
   border-radius: 15px;
+  color: white;
   margin-top: 5vh; }
   .phone .phone-top {
     height: 12vh; }
   .phone .screen {
     height: 65vh;
     min-height: 300px;
-    background: white;
-    border-radius: 15px;
-    overflow: auto; }
-    .phone .screen #screenCarousel {
-      height: 100%; }
+    background: #87e0fd;
+    background: -moz-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+    background: -webkit-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+    background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 );
+    border-radius: 5px;
+    overflow: auto;
+    color: white;
+    font-weight: bold; }
+    .phone .screen .icon-row {
+      height: 40%; }
+    .phone .screen .notif-row {
+      height: 10%;
+      border: solid 2px #87e0fd;
+      background: rgba(150, 150, 150, 0.5);
+      border-radius: 5px; }
+    .phone .screen .icon {
+      background: rgba(150, 150, 150, 0.5);
+      border-radius: 5px;
+      width: 100%;
+      height: 100%;
+      border: solid 2px #87e0fd; }
   .phone .phone-button {
     height: 12vh; }
     .phone .phone-button .home-button {
@@ -29,7 +47,13 @@
   color: black; }
 
 .explain-text {
-  height: 65vh; }
+  background: #87e0fd;
+  background: -moz-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+  background: -webkit-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+  background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 );
+  height: 65vh;
+  border-radius: 5px; }
 
 html, body {
   width: 100%;
