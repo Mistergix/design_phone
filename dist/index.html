@@ -42,16 +42,16 @@
           >.
         </p>
       </div>
-      <div class="container">
+      <div class="container" id="app">
         <div class="row align-items-center">
-          <div class="col-md-4 phone">
+          <div id="phone" class="col-md-4 phone">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="row"><div class="col-12 phone-top"></div></div>
                         <div class="row no-gutters">
                           <div class="col-10 offset-1 screen text-center">
-                            <div class="row notif-row no-gutters">
+                            <div class="row notif-row no-gutters" @mouseover="updateText(0)">
                               <div class="col-3 p-1">
                                     18h43
                               </div>
@@ -61,7 +61,7 @@
                             </div>
                             <div class="row icon-row no-gutters">
                               <div class="col-12">
-                                <div class="icon">
+                                <div class="icon"  @mouseover="updateText(1)">
                                   <div class="vertical-center">
                                     <h1>Contacts</h1>
                                     <h2><i class="fas fa-users"></i></h2>
@@ -71,7 +71,7 @@
                             </div>
                             <div class="row icon-row no-gutters">
                                 <div class="col-6">
-                                    <div class="icon">
+                                    <div class="icon"  @mouseover="updateText(2)">
                                         <div class="vertical-center">
                                             <h2>Post-it</h2>
                                             <h2><i class="fas fa-pen"></i></h2>
@@ -79,7 +79,7 @@
                                       </div>
                                 </div>
                                 <div class="col-6">
-                                    <div class="icon">
+                                    <div class="icon"  @mouseover="updateText(3)">
                                         <div class="vertical-center">
                                             <h2>Urgence</h2>
                                             <h2><i class="fas fa-exclamation-triangle"></i></h2>
@@ -87,7 +87,7 @@
                                       </div>
                                 </div>
                               </div>
-                              <div class="row notif-row no-gutters">
+                              <div class="row notif-row no-gutters"  @mouseover="updateText(4)">
                                 <div class="col-12">
                                   <h2>+</h2>
                                 </div>
@@ -104,6 +104,10 @@
             </div>
           </div>
           <div class="col-md-7 offset-md-1 explain-text">
+            <h1>{{ title }}</h1>
+            <p>
+              {{ description }}
+            </p>
           </div>
       </div>
     </main>
@@ -117,6 +121,8 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
     <script>
       $(".carousel-sync").on("slide.bs.carousel", function(ev) {
         var dir = ev.direction == "right" ? "prev" : "next";
